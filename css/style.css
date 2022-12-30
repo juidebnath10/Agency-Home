@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* header code start */
+.header{
+    width: 100%;
+}
+
+.header .info{
+    width: 100%;
+    padding: 10px 0px;
+    background: #f5f7fa;
+}
+
+.header .info .info-icons{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .info .info-icons p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #506a85;
+    margin: 0px 20px 0px 0px;
+}
+
+.header .info .info-icons img{
+    margin: 0px 5px 0px 0px;
+}
+
+.header .info .social-icons{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.header .info .social-icons li{
+    display: inline-block;
+    list-style: none;
+}
+
+.header .info .social-icons li a{
+    display: block;
+    width: 40px;
+    height: 10px;
+    font-size: 16px;
+    background: transparent;
+	color: #506a85;
+}
+
+.header .info .social-icons li a:hover{
+    background: transparent;
+	color: #00bc9c;
+    transition: 1s;
+}
+
+.header .info .social-icons li a:focus{
+    background: transparent;
+	color: #00bc9c;
+    transition: 1s;
+}
+
+.header .menu{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.header .menu .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 30px;
+    color: #506a85;
+    transition: 1s;
+}
+
+.header .menu .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #00bc9c;
+}
+
+.header .menu .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #00bc9c;
+}
+
+.header .menu .link{
+    padding: 15px 0px 0px 0px;
+}
+
+.header .menu .link .fa{
+    font-size: 16px;
+    background: transparent;
+	color: #506a85;
+}
+
+/* header code end */
+
+/* banner code start */
+
+.banner{
+    width: 100%;
+    padding: 35px 0px;
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner .inner-banner{
+    width: 100%;
+    padding: 120px 0px 146px;
+}
+
+.banner .inner-banner h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.banner .inner-banner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    margin: 0px 0px 40px;
+}
+
+.banner .inner-banner .btn-primary{
+    padding: 15PX 40px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner .inner-banner .btn-primary:hover{
+    background: transparent;
+    color: #fff;
+    border: 1PX solid #00bc9c
+}
+/* banner code end */
+
+/* feature code start */
+
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.feature .title{
+    width: 100%;
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+
+.feature .title h1{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #506a85;
+    line-height: 1.4;
+}
+
+.feature .title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #506a85;
+    margin: 20px 0px 15px;
+}
+
+.feature .inner-feature{
+    display: flex;
+    width: 100%;
+    padding: 50px 35px;
+    text-align: center;
+}
+
+.feature .inner-feature:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.feature-box{
+    display: flex;
+    background: #fff;
+    padding: 15px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.feature .inner-feature .icon{
+    flex-basis: 25%;
+}
+
+.feature .inner-feature .icon .fa{
+    font-size: 40px;
+    color: #506a85;
+}
+
+.content{
+    flex-basis: 90%;
+}
+
+.content h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0px 0px 15px;
+    color: #506a85;
+    text-transform: capitalize;
+}
+
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin: 0px 0px 15px; */
+    color: #506a85;
+}
+
+
+/* feature code end */
